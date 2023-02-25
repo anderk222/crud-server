@@ -1,0 +1,30 @@
+@url = http://localhost:3333/api/user
+
+###
+GET {{url}}/
+
+###
+GET {{url}}/1
+
+
+###
+POST {{url}}/
+Content-Type: application/json
+
+{
+      "email": "anderk222@gmail.com",
+      "name": "Anderson"
+}
+
+###
+PUT {{url}}/
+Content-Type: application/json
+
+{
+      "id" : 1,
+      "email": "anderk@gmail.com",
+      "name": "Anderson Macias"
+}
+
+###
+DELETE {{url}}/2
