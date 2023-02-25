@@ -1,6 +1,5 @@
 ## Pasos
 #### 1.
----
 Cambia el nombre del archivo `.example.env` a `.env` y pon la url de tu base de datos correctamente
 
 #### 2. 
