@@ -22,12 +22,12 @@ GET http://localhost:3333/api/user/
 
 Traer usuario por id:
 ``` 
-GET http://localhost:3333/api/post/<id>
+GET http://localhost:3333/api/user/<id>
 ```
 
 Crear:
 ```
-POST http://localhost:3333/api/post/
+POST http://localhost:3333/api/user/
 ```
 
 ```json
@@ -39,7 +39,7 @@ POST http://localhost:3333/api/post/
 
 Editar
 ```
-PUT  http://localhost:3333/api/post/
+PUT  http://localhost:3333/api/user/
 ```
 ```json
 {
@@ -51,7 +51,7 @@ PUT  http://localhost:3333/api/post/
 
 Eliminar
 ``` 
-DELETE http://localhost:3333/api/post/<id>
+DELETE http://localhost:3333/api/user/<id>
 ```
 
 
