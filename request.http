@@ -1,4 +1,4 @@
-@url = http://localhost:3333/api/user
+@url = http://localhost:3333/api/employee
 
 ###
 GET {{url}}/
@@ -12,7 +12,7 @@ POST {{url}}/
 Content-Type: application/json
 
 {
-      "email": "anderk222@gmail.com",
+      "email": "anderk232@gmail.com",
       "name": "Anderson"
 }
 

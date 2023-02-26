@@ -1,6 +1,6 @@
 import express, { Express } from 'express';
 import cors from 'cors';
-import { UserRouter } from './routes/user.routes';
+import { EmployeeRouter } from './routes/employee.routes';
 import morgan from 'morgan';
 
 class App {
@@ -22,7 +22,7 @@ class App {
 
     private routes() {
 
-        this.server.use('/api/user', UserRouter.mount());
+        this.server.use('/api/employee', EmployeeRouter.mount());
 
     }
 

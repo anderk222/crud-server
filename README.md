@@ -16,18 +16,18 @@ Y listo
 ## Rutas
 Traer todos los usuarios:
 ``` 
-GET http://localhost:3333/api/user/
+GET http://localhost:3333/api/employee/
 ```
 
 
 Traer usuario por id:
 ``` 
-GET http://localhost:3333/api/post/<id>
+GET http://localhost:3333/api/employee/<id>
 ```
 
 Crear:
 ```
-POST http://localhost:3333/api/post/
+POST http://localhost:3333/api/employee/
 ```
 
 ```json
@@ -39,7 +39,7 @@ POST http://localhost:3333/api/post/
 
 Editar
 ```
-PUT  http://localhost:3333/api/post/
+PUT  http://localhost:3333/api/employee/
 ```
 ```json
 {
@@ -51,7 +51,7 @@ PUT  http://localhost:3333/api/post/
 
 Eliminar
 ``` 
-DELETE http://localhost:3333/api/post/<id>
+DELETE http://localhost:3333/api/employee/<id>
 ```
 
 

@@ -1,13 +1,13 @@
-type User = {
+type Employee = {
     id? : number
     name? : string,
     email : string
 }
 
-type UserUpdate = {
+type EmployeeUpdate = {
     id : number
     name? : string,
     email : string
 }
 
-export { User, UserUpdate };
+export { Employee, EmployeeUpdate };
