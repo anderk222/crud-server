@@ -5,8 +5,8 @@ Crea el archivo `.env`, copia y pega el contenido de `.example.env`, cambia la u
 #### 2. 
 Ejecuta los siguiente comandos
 ```
-npx prisma migrate dev --name init
 npm install 
+npx prisma migrate dev --name init
 npm run dev
 ```
 Y listo 
